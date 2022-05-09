@@ -4,6 +4,10 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+.top-container {
+    font-size: 1em;
+}
+
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -52,7 +56,7 @@ hr {
     width: 5%;
     border: 7px dotted #66BFBF;
     border-style: dotted none none;
-    margin: 100px auto 100px auto;
+    margin: 10% auto 10% auto;
     opacity: 0.4;
 
 }
@@ -65,33 +69,33 @@ hr {
 
 .skill-row {
     width: 50%;
-    margin: 150px auto 200px auto;
+    margin: 10% auto 10% auto;
     text-align: left;
 }
 
 .data-img {
     width: 30%;
     float: left;
-    margin-right: 40px;
-    margin-bottom: 40px;
+    margin-right: 20%;
+    margin-bottom: 20%;
 }
 
 .dev-img {
     width: 30%;
     float: right;
-    margin-left: 40px;
+    margin-left: 20%;
 }
 
 .top-cloud {
     position: absolute;
-    right: 350px;
-    top: 40px;
+    right: 10%;
+    top: 20%;
 }
 
 .bottom-cloud {
     position: absolute;
-    bottom: 300px;
-    left: 350px;
+    bottom: 30%;
+    left: 10%;
 }
 
 .profile {
@@ -158,3 +162,38 @@ hr {
       color: white;
       margin-top: 50px;
   }
+
+  @media screen and (max-width: 900px) {
+      h1 {
+          font-size: 3.125rem;
+      }
+
+      h2 {
+          font-size: 1.5rem;
+      }
+
+      h3 {
+          font-size: 1rem;
+      }
+
+      p {
+          font-size: 0.8rem;
+      }
+
+      .top-cloud {
+          width: 15%;
+      }
+
+      .bottom-cloud {
+        width: 15%;
+    }
+
+    .mountain {
+        width: 50%;
+        height: 50%;    
+    }
+
+    .footer-link {
+        font-size: 0.8rem;
+    }
+}
